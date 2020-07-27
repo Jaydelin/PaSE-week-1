@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Roboto";
+    font-style: italic;
+    min-height: 100vh;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+main{
+    background-image: url(./img/hotel.b.jpg);
+    height: 550px;
+    background-size: 100%;
+    padding: 40px;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: none;
+    background-position: center;
+    object-fit: cover;
+    object-position: center;
+   
+
+}
+
+.text{
+    font-style: italic;
+    font-size: 60px;
+    color: rgb(94, 202, 184);
+}
+
+.a{
+    display: inline-block;
+    text-decoration:none;
+    width: 0;
+    height: 0;
+    display: block;
+    text-align: left;
+
+
+
+  }
+
+  .a:hover{
+      text-decoration: none;
+      color: goldenrod;
+  }
+
+  .b{
+      text-decoration: none;
+      text-decoration-line: underline;
+
+  }
+
+  .dropbtn {
+    background-color: green; 
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+    
+  }
+  
+  .dropdown {
+    display: inline-block;
+ 
+}
+
+.color{
+    color: rgb(113, 245, 4);
+}
+
+  
+
+  
+
+
+  

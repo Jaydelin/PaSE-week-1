@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    font-family: "Roboto";
+    font-style: italic;
+    min-height: 100vh;
+  }
+  img {
+    width: 200px;
+    border-radius: 50px;
+    
+  }
+  main {
+    background-image: url(./img/man.jpg);
+    height: 550px;
+    background-size: 100%;
+    padding: 40px;
+    background-position: initial;
+    object-fit: cover;
+    object-position: center;
+    justify-content: center;
+    display: flex;
+    font-size: 10px;
+    font-style: italic;
+    text-decoration: none;
+
+    
+  }
+  
+  .box:hover{
+  width: 400px;
+  height: 400px;
+  
+  
+    
+    
+}
+
+  .box-1 {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 90px;
+    overflow: hidden;
+    padding: 50px;
+    font-display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 15px;
+    align-items: center;
+
+  }
+
+  .pic-1{
+      background-image: url(./img/bedroom-door-entrance-guest-room-271639.jpg);
+    
+      
+  }
+
+  .pic-2{
+      background-image: url(./img/architecture-blue-water-buildings-business-261102.jpg);
+      
+  }
+
+  .center-content {
+        display: grid;
+        place-content: center;
+      }
+      .align-me {
+        text-align: center;
+      }

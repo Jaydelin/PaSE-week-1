@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/hotel-side.jpg);
+    height: 550px;
+    background-size: 100%;
+    padding: 40px;
+    background-position: center;
+    object-fit: cover;
+    object-position: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;   
+    margin-top: 40px;
+   
+}
+
+form div{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    color: floralwhite;
+
+}
+
+.gender{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 0px;
+    align-items: center;
+    color: rgb(216, 150, 29);
+
+
+    
+
+}

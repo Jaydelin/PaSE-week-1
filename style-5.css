@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Roboto";
+    font-style: italic;
+    min-height: 100vh;
+    text-align: center;
+    text-decoration: none;
+}
+
+main{
+    background-image: url(./img/restau.jpg);
+    color: lightgreen;
+    background-position: center;
+    height: 550px;
+    background-size: 100%;
+    padding: 40px;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.heading{
+    text-align: left;
+    display: flex;
+    font-display: flex;
+    padding: 50px;
+    font-size: 30px;
+    color: rgb(115, 212, 24);
+
+    
+}
+
+.header{
+    color: rgb(24, 115, 189);
+    font-size: 40px;
+    
+}
+
+.img{
+    border-radius: 100px;
+    width: 300px;
+    height: 300px;
+    float: left;
+   
+}
+
+.background{
+    background-color: wheat;
+    
+}
+
+.image{
+    border-radius: 100px;
+    display: grid;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    
+   
+}

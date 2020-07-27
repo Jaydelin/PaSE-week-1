@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Roboto";
+    font-style: italic;
+    min-height: 100vh;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+main{
+    background-image: url(./img/architecture-hall-hallway-interior-design-53464.jpg);
+    background-position: center;
+    height: 550px;
+    background-size: 100%;
+    padding: 50px;
+    font-size: 30px;
+    font-style: italic;
+    
+
+}
+
+.padding{
+    padding: 30px;
+    
+}
+
+.heading{
+    text-decoration-line: underline;
+}
+
+.ud{
+    text-decoration: none;
+    color: khaki;
+}
+
+.ud:hover{
+    width: 400px;
+    height: 400px;
+    background-color: lightcoral;
+}
